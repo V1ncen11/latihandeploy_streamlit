@@ -1,10 +1,10 @@
 import joblib
 import streamlit as st
 
-model = joblib.load("models\model_logistic_regression.pkl")
-tfidf = joblib.load("models\tfidf_vectorizer.pkl")
+model = joblib.load("models/model_logistic_regression.pkl")
+tfidf = joblib.load("models/tfidf_vectorizer.pkl")
 
-st.title("Aplikasi Analisis Sentimen Komentar")
+st.title("Aplikasi Analisis Sentimen Komentar KEVIN ABOX")
 st.write("Aplikasi ini digunakan untuk memprediksi apakah sebuah komentar bernada *positif* atau *negatif* menggunakan model Logistic Regression yang sudah dilatih sebelumnya.")
 
 # Input dari user
