@@ -13,7 +13,7 @@ komentar = st.text_input("Masukkan komentar yang ingin dianalisis")
 # Tombol submit
 if st.button("Submit"):
     if komentar.strip() == "":
-        st.warning("Komentar tidak boleh kosong.")
+        st.warning("Jangan Kosong Bro Komentarnya !!.")
     else:
         # Transform dan prediksi
         vector = tfidf.transform([komentar])
